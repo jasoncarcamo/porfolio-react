@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/porfolio-react/static/css/main.c9c036cb.chunk.css",
+    "main.js": "/porfolio-react/static/js/main.bb7cc532.chunk.js",
+    "main.js.map": "/porfolio-react/static/js/main.bb7cc532.chunk.js.map",
+    "runtime~main.js": "/porfolio-react/static/js/runtime~main.bf82f86d.js",
+    "runtime~main.js.map": "/porfolio-react/static/js/runtime~main.bf82f86d.js.map",
+    "static/js/2.47cab030.chunk.js": "/porfolio-react/static/js/2.47cab030.chunk.js",
+    "static/js/2.47cab030.chunk.js.map": "/porfolio-react/static/js/2.47cab030.chunk.js.map",
+    "index.html": "/porfolio-react/index.html",
+    "precache-manifest.ca6a2674fb4b942757cfd72c6cf5d7b6.js": "/porfolio-react/precache-manifest.ca6a2674fb4b942757cfd72c6cf5d7b6.js",
+    "service-worker.js": "/porfolio-react/service-worker.js",
+    "static/css/main.c9c036cb.chunk.css.map": "/porfolio-react/static/css/main.c9c036cb.chunk.css.map",
+    "static/media/face-shot.jfif": "/porfolio-react/static/media/face-shot.666f863b.jfif",
+    "static/media/website1.png": "/porfolio-react/static/media/website1.d30a30c4.png",
+    "static/media/website2.png": "/porfolio-react/static/media/website2.e0889917.png",
+    "static/media/website3.png": "/porfolio-react/static/media/website3.1f07e659.png",
+    "static/media/website4.png": "/porfolio-react/static/media/website4.3c2a6e90.png"
+  }
+}
