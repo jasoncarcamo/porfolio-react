@@ -1,0 +1,58 @@
+#projects{
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.school-project{
+    width: 95%;
+    margin: 5% auto;
+    border: .1em solid black;
+    padding: 1%;
+}
+
+
+
+h3{
+    font-size: 1.3em;
+}
+
+
+.school-lay{
+    width: 60%;
+    border: .1em solid purple;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.school-project > div{
+    margin: 1.5% auto;
+    width: 90%;
+    text-align: center;
+}
+
+.school-project > div a{
+    margin-left: 5%;
+    color: red;
+    text-decoration: none;
+}
+
+/*Backend projects*/
+#project-back{
+    display: none;
+}
+
+@media screen and (max-width: 730px){
+
+    #projects{
+        margin-top: -30%;
+    }
+
+    #projects{
+        overflow: visible;
+    }
+
+
+}

@@ -1,0 +1,35 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    text-align: center;
+
+}
+
+#home *{
+    width: 80%;
+}
+
+#home h1{
+    
+    margin: 25% auto 0 auto;
+}
+
+#home h4{
+    font-size: 1.2em;
+    margin: 5% auto 0 auto;
+}
+
+#home p{
+    margin: 5% auto 0 auto;
+}
+
+@media screen and (max-width: 730px){
+    #home h1{
+        margin: 15% auto 0 auto;
+    }
+}
+
+
+

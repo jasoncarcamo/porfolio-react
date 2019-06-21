@@ -1,33 +1,149 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.box-shadow{
+    box-shadow: .5em .3em .8em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#jason-logo{
+    border-radius: 100%;
+    width: 10em;
+    height: 23%;
+    margin: 0 auto 10% auto;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+.display{
+    display: flex !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+#main-layout{
+    display: grid;
+    padding: 0;
+    margin: 0;
+    grid-template: 100%/ 1fr 2.5fr;
+    width: 100%;
+    height: 100vh;
+}
+
+#nav-header{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    border-right: .1em solid black;
+    height: 100%;
+}
+
+#contacts{
+    width: 70%;
+    margin: 0 auto 5% auto;
+}
+
+#contacts li a{
+    font-size: 2em;
+    color: black;
+}
+
+#contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2{
+    font-size:1.6em;
+    text-align: center;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+
+
+/*Mobile version*/
+@media screen and (max-width: 730px){
+
+    #jason-logo{
+        height: 4em;
+        width: 4em;
+        margin: auto 0 auto 10%;
+        
+    }
+
+    .desktop-view{
+        display: none;
+        z-index: 2;
+    }
+
+    #main-layout{
+        grid-template: 1fr 5fr 1fr/ 1fr;
+        height: auto;
+    }
+
+    #nav-header{
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid rgb(221, 216, 216);
+        box-shadow: 0 .1em .4em;
+    }
+
+    #nav-header img{
+        float: left;
+    }
+
+
+    #nav-menu{
+        margin: auto 0;
+        width: 20%;
+        z-index: 5;
+        cursor: pointer;
+        position: fixed;
+        top: .5em;
+        right: -4%;
+    }
+
+    #nav-menu div{
+        background-color: red;
+        margin: 5% auto;
+        width: 2em;
+        height: .3em;
+        box-shadow: .4em .3em .4em;
+    }
+
+    #contacts{
+        margin: 0 auto;
+    }
+
+    main{
+        height: auto;
+        margin: 0 auto 0 auto;
+
+    }
 }

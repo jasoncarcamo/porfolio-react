@@ -1,0 +1,23 @@
+#about{
+    height: 90%;
+    text-align: center;
+    border: 1px solid transparent;
+
+}
+
+#about header h1{
+    margin: 25% auto 0 auto;
+}
+#about p{
+    width: 70%;
+    margin: 5% auto;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 730px){
+    #about header h1 {
+        margin: 5% auto 0 auto;
+    }
+
+    
+}

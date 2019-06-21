@@ -1,0 +1,80 @@
+#skills{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    text-align: center;
+    height: 100%;
+    overflow: auto;
+}
+#skills h1 {
+
+    font-weight: bolder;
+}
+
+
+/*Frontend*/
+#frontend{
+    width: 95%;
+    margin: 2% auto;
+}
+
+#frontend-skills{
+    display: grid;
+    grid-gap: 1em;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    grid-template: auto / 1fr 1fr 1fr;
+}
+
+#frontend-skills li{
+    padding: 4% 0;
+    width: 60%;
+    margin: 0 auto;
+    border: .1em solid black;
+}
+
+/*Backend*/
+
+#backend{
+    width: 95%;
+    margin: 2% auto 5% auto;
+}
+
+#backend-skills{
+    display: grid;
+    grid-gap: 1em;
+    list-style: none;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr
+}
+
+#backend-skills li{
+    height: auto;
+    padding: 4% 0 ;
+    border: .1em solid black;
+    width: 65%;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 730px){
+
+    #skills{
+        overflow: visible;
+    }
+
+    #frontend{
+        margin: -25% auto -5% auto;
+    }
+
+    #frontend-skills{
+        grid-template: 1fr 1fr / 1fr 1fr;
+    }
+
+    #backend-skills{
+        grid-template: 1fr 1fr / 1fr 1fr;
+    }
+}
